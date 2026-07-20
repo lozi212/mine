@@ -16,21 +16,19 @@
     header {
       background: #333;
       color: #fff;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 30px 20px;
+      text-align: center;
     }
     header img {
       border-radius: 50%;
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       border: 3px solid #fff;
-      margin-right: 20px;
+      margin-bottom: 15px;
     }
     header h1 {
       margin: 0;
-      font-size: 24px;
+      font-size: 26px;
     }
     header p {
       margin: 5px 0 0;
@@ -75,10 +73,8 @@
 <body>
   <header>
     <img src="https://github.com/user-attachments/assets/c9d5d00d-5f00-42cc-9129-38abeb9b3dd8" alt="Loza Demeke">
-    <div>
-      <h1>Hi, I'm Loza Demeke 👋</h1>
-      <p>🎓 Information Systems Student at Addis Ababa University</p>
-    </div>
+    <h1>Hi, I'm Loza Demeke 👋</h1>
+    <p>🎓 Information Systems Student at Addis Ababa University</p>
   </header>
 
   <section>
