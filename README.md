@@ -21,8 +21,8 @@
     }
     header img {
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 250px;
       border: 3px solid #fff;
       margin-bottom: 15px;
     }
