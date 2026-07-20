@@ -22,6 +22,14 @@
     }
     header h1 {
       margin: 0;
+      .photo-top {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .photo-top img {
+      border-radius: 50%;
+      width: 220px;
+      border: 3px solid #333;
     }
     section {
       background: #fff;
@@ -44,14 +52,6 @@
       content: "• ";
       color: #333;
     }
-    .photo {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .photo img {
-      border-radius: 50%;
-      width: 220px;
-      border: 3px solid #333;
     }
     footer {
       text-align: center;
