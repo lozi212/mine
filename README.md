@@ -1,5 +1,4 @@
 
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -18,21 +17,23 @@
       background: #333;
       color: #fff;
       padding: 20px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      border: 3px solid #fff;
+      margin-right: 20px;
     }
     header h1 {
       margin: 0;
-      .photo-top {
-      text-align: center;
-      margin-top: 20px;
+      font-size: 24px;
     }
-    .photo-top {
-      text-align: center;
-      margin-top: 20px;
-    .photo-top img {
-      border-radius: 50%;
-      width: 220px;
-      border: 3px solid #333;
+    header p {
+      margin: 5px 0 0;
     }
     section {
       background: #fff;
@@ -55,7 +56,6 @@
       content: "• ";
       color: #333;
     }
-    }
     footer {
       text-align: center;
       padding: 10px;
@@ -74,8 +74,11 @@
 </head>
 <body>
   <header>
-    <h1>Hi, I'm Loza Demeke 👋</h1>
-    <p>🎓 Information Systems Student at Addis Ababa University</p>
+    <img src="https://github.com/user-attachments/assets/c9d5d00d-5f00-42cc-9129-38abeb9b3dd8" alt="Loza Demeke">
+    <div>
+      <h1>Hi, I'm Loza Demeke 👋</h1>
+      <p>🎓 Information Systems Student at Addis Ababa University</p>
+    </div>
   </header>
 
   <section>
@@ -112,11 +115,6 @@
       learning new technologies, and solving real-world problems through software. 
       I am always eager to improve my skills and work on exciting projects.
     </p>
-  </section>
-
-  <section class="photo">
-    <h2>My Photo</h2>
-    <img src="https://github.com/user-attachments/assets/c9d5d00d-5f00-42cc-9129-38abeb9b3dd8" alt="Loza Demeke">
   </section>
 
   <footer>
